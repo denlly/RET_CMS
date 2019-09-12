@@ -5,6 +5,6 @@ export default (app: Application) => {
 
     router.get('/', controller.home.index);
 
-    //user-module
+    // user-module
     router.get('/user/current', controller.user.getCurrentUser);
 };
