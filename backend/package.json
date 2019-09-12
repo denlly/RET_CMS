@@ -31,6 +31,8 @@
         "tslint-config-egg": "^1.0.0"
     },
     "devDependencies": {
+        "@commitlint/cli": "^8.1.0",
+        "@commitlint/config-conventional": "^8.1.0",
         "@types/mocha": "^2.2.40",
         "@types/node": "^7.0.12",
         "@types/supertest": "^2.0.0",
