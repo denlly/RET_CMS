@@ -67,9 +67,8 @@ before commit 触发 pre-commit 对代码进行规范性验证，如果验证不
     -   refactor：重构（即不是新增功能，也不是修改 bug 的代码变动）
     -   test：增加测试
     -   chore：构建过程或辅助工具的变动
-    -   conf：修改配置
 
--   scope：
+*   scope：
 
 用于说明 commit 影响的范围，比如数据层、控制层、视图层等等，视项目不同而不同。
 
