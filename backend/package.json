@@ -9,7 +9,7 @@
     },
     "scripts": {
         "docker-run": "docker-compose -f docker/docker-compose.yml up",
-        "docker-stop": "docker-compose down",
+        "docker-stop": "docker-compose -f docker/docker-compose.yml  down",
         "start": "egg-scripts start --daemon --title=egg-server-ret-cms-backend",
         "stop": "egg-scripts stop --title=egg-server-ret-cms-backend",
         "dev": "egg-bin dev",
